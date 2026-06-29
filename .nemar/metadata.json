@@ -1,37 +1,83 @@
 {
   "version": "2.0",
-  "dataset_id": "on006735",
-  "source": "openneuro",
-  "source_id": "ds006735",
+  "pipeline_stage": "validated",
   "title": "Chimeric music reveals an interaction of pitch and time in electrophysiological signatures of music encoding",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Tong Shan": {},
     "Edmund C. Lalor": {},
     "Ross K. Maddox": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006735.v2.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006735",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006735",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.2.1",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
-      "funder_name": "NSF CAREER grant 2142612"
+      "funder_name": "the Schmitt Program in Neuroscience"
     },
     {
-      "funder_name": "the Schmitt Program in Neuroscience"
+      "funder_name": "NSF",
+      "award_number": "2142612",
+      "award_title": "CAREER grant"
+    },
+    {
+      "funder_name": "Schmitt Program in Neuroscience"
     }
-  ]
+  ],
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "207.1 GB (83 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".pdf",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "description": "This dataset comprises EEG recordings from 27 participants listening to original and chimeric music stimuli designed to investigate pitch-time interactions in music encoding. Chimeric music pairs two distinct melodies with exchanged pitch contours and note onset-times, thereby dissociating pitch and temporal patterns while preserving marginal statistics. The study employs electrophysiological recordings to characterize how the brain encodes musical information when these fundamental acoustic dimensions are decorrelated.",
+  "methods_description": "EEG data were collected from 27 subjects (age 22.9 ± 3.9 years) with normal hearing and English as primary language. The experiment consisted of two phases: (1) ten one-minute click trials for baseline, and (2) 33 trials each of original and chimeric monophonic music clips presented in shuffled order with 0.5 s inter-trial intervals. Stimuli were presented at 60 dB SPL through ER-2 insert earphones at 48 kHz sampling rate. Participants were seated in a sound-isolating booth approximately 60 cm from a 24-inch monitor. EEG was recorded in BrainVision format. Data collection occurred September-November 2023.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "music perception"
+    },
+    {
+      "term": "pitch processing"
+    },
+    {
+      "term": "temporal processing"
+    },
+    {
+      "term": "auditory encoding"
+    },
+    {
+      "term": "electrophysiology"
+    }
+  ],
+  "source_hash": "01dfb28263689377c7e2aebd3f6777fd272cbe309e9656d2abef7e855af6c1c5"
 }
