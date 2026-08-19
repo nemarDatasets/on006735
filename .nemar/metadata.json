@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Chimeric music reveals an interaction of pitch and time in electrophysiological signatures of music encoding",
+  "description": "This dataset comprises EEG recordings from 27 healthy adult subjects investigating the interaction of pitch and time in music encoding using 'chimeric music' stimuli that recombine pitch contours and note onset-times from two distinct melodies. Data were collected between September and November 2023 at the University of Rochester, with participants exposed to original and chimeric monophonic music clips alongside click trains during a two-phase experiment. The dataset is formatted according to the EEG-BIDS standard and includes raw BrainVision format EEG data.",
+  "methods_description": "EEG data were collected in a sound-isolating booth. Subjects viewed a 24-inch BenQ monitor at ~60 cm distance. Auditory stimuli were presented at 60 dB SPL and 48000 Hz sampling rate via ER-2 insert earphones connected to an RME Babyface Pro digital sound card. Stimulus presentation was controlled using a Python script with the custom 'expyfun' package. The experiment had two phases: ten one-minute click trials, followed by 33 trials each of original and chimeric monophonic music clips presented in shuffled order with 0.5 s pauses between trials. Participants also completed a self-reported musicianship questionnaire after the session.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -9,6 +11,30 @@
     "Edmund C. Lalor": {},
     "Ross K. Maddox": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "music perception"
+    },
+    {
+      "term": "Pitch Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010898"
+    },
+    {
+      "term": "Auditory Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001307"
+    },
+    {
+      "term": "chimeric music"
+    },
+    {
+      "term": "temporal processing"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006735.v2.0.0",
@@ -33,17 +59,17 @@
     {
       "funder_name": "NSF",
       "award_number": "2142612",
-      "award_title": "CAREER grant"
+      "award_title": "NSF CAREER grant"
     },
     {
       "funder_name": "Schmitt Program in Neuroscience"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "207.1 GB (83 files)"
   ],
@@ -56,28 +82,6 @@
     ".vhdr",
     ".vmrk",
     ".yml"
-  ],
-  "description": "This dataset comprises EEG recordings from 27 participants listening to original and chimeric music stimuli designed to investigate pitch-time interactions in music encoding. Chimeric music pairs two distinct melodies with exchanged pitch contours and note onset-times, thereby dissociating pitch and temporal patterns while preserving marginal statistics. The study employs electrophysiological recordings to characterize how the brain encodes musical information when these fundamental acoustic dimensions are decorrelated.",
-  "methods_description": "EEG data were collected from 27 subjects (age 22.9 ± 3.9 years) with normal hearing and English as primary language. The experiment consisted of two phases: (1) ten one-minute click trials for baseline, and (2) 33 trials each of original and chimeric monophonic music clips presented in shuffled order with 0.5 s inter-trial intervals. Stimuli were presented at 60 dB SPL through ER-2 insert earphones at 48 kHz sampling rate. Participants were seated in a sound-isolating booth approximately 60 cm from a 24-inch monitor. EEG was recorded in BrainVision format. Data collection occurred September-November 2023.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "music perception"
-    },
-    {
-      "term": "pitch processing"
-    },
-    {
-      "term": "temporal processing"
-    },
-    {
-      "term": "auditory encoding"
-    },
-    {
-      "term": "electrophysiology"
-    }
   ],
   "source_hash": "01dfb28263689377c7e2aebd3f6777fd272cbe309e9656d2abef7e855af6c1c5"
 }
