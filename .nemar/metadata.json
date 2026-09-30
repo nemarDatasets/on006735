@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Chimeric music reveals an interaction of pitch and time in electrophysiological signatures of music encoding",
-  "description": "This dataset comprises EEG recordings from 27 healthy adult subjects investigating the interaction of pitch and time in music encoding using 'chimeric music' stimuli that recombine pitch contours and note onset-times from two distinct melodies. Data were collected between September and November 2023 at the University of Rochester, with participants exposed to original and chimeric monophonic music clips alongside click trains during a two-phase experiment. The dataset is formatted according to the EEG-BIDS standard and includes raw BrainVision format EEG data.",
-  "methods_description": "EEG data were collected in a sound-isolating booth. Subjects viewed a 24-inch BenQ monitor at ~60 cm distance. Auditory stimuli were presented at 60 dB SPL and 48000 Hz sampling rate via ER-2 insert earphones connected to an RME Babyface Pro digital sound card. Stimulus presentation was controlled using a Python script with the custom 'expyfun' package. The experiment had two phases: ten one-minute click trials, followed by 33 trials each of original and chimeric monophonic music clips presented in shuffled order with 0.5 s pauses between trials. Participants also completed a self-reported musicianship questionnaire after the session.",
+  "description": "EEG recordings from 27 normal-hearing adults listening to original monophonic music and 'chimeric' music, in which the pitch contours and note onset times of two melodies are exchanged. This distorts musical pattern while preserving the marginal pitch and timing statistics. The dataset supports investigation of pitch-time interactions in the electrophysiological encoding of music. It includes a click-train phase and a music phase with 33 trials per stimulus type.",
+  "methods_description": "Participants sat in a sound-isolating booth and heard stimuli through ER-2 insert earphones at about 60 dB SPL. Phase one presented ten one-minute click trials. Phase two presented 33 shuffled trials each of original and chimeric monophonic music, with 0.5 s pauses between trials. EEG was recorded in BrainVision format. Stimuli were controlled with a Python script using expyfun. Participants also completed a musicianship questionnaire.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,20 +19,16 @@
       "term": "music perception"
     },
     {
-      "term": "Pitch Perception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D010898"
-    },
-    {
-      "term": "Auditory Perception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001307"
-    },
-    {
       "term": "chimeric music"
     },
     {
-      "term": "temporal processing"
+      "term": "pitch"
+    },
+    {
+      "term": "timing"
+    },
+    {
+      "term": "auditory processing"
     }
   ],
   "related_identifiers": [
@@ -59,7 +55,7 @@
     {
       "funder_name": "NSF",
       "award_number": "2142612",
-      "award_title": "NSF CAREER grant"
+      "award_title": "CAREER grant"
     },
     {
       "funder_name": "Schmitt Program in Neuroscience"
@@ -71,7 +67,7 @@
     "eeg"
   ],
   "sizes": [
-    "207.1 GB (83 files)"
+    "193 GB (83 files)"
   ],
   "formats": [
     ".eeg",
